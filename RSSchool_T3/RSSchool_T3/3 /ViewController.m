@@ -51,7 +51,7 @@
     labelGreen.text = @"GREEN";
     labelBlue.text = @"BLUE";
     [buttonProcess setTitle:@"Process" forState:UIControlStateNormal];
-    [buttonProcess setTitleColor:UIColor.systemBlueColor forState:UIControlStateNormal];
+    [buttonProcess setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
     
     [buttonProcess addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     self.textFieldRed.placeholder = @"0..255";
